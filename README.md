@@ -42,7 +42,7 @@ npx prisma migrate dev
 npm run dev
 ```
 
-O servidor estará rodando em `http://localhost:3000`.
+O servidor estará rodando em `http://localhost:3333`.
 
 ### licenca 
 
