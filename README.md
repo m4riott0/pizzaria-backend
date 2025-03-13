@@ -1,5 +1,4 @@
 
-```markdown
 # Pizzaria Backend
 
 ## Tecnologias Utilizadas
