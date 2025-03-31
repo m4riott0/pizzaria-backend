@@ -40,7 +40,8 @@ router.post('/category', isAuthenticated, new CreateCategoryController().handle 
 router.get('/category', isAuthenticated, new ListCategoryController().handle )
 
 //--rotas de produtos
-router.post('/products', isAuthenticated, upload.single('file'), new CreateProductController().handle)
+//router.post('/products', isAuthenticated, upload.single('file'), new CreateProductController().handle)
+router.post('/products', isAuthenticated, new CreateProductController().handle)
 router.get('/category/product', isAuthenticated, new ListByCategoryController().handle)
 
 //--rotas de orders
